@@ -20,5 +20,5 @@
 # Assets Rights
 
 - Typo Draft font: https://www.dafont.com/typo-draft.font
-- VP Pixel font: https://www.dafont.com/vp-pixel.font
+- VP Pixel font: https://br.maisfontes.com/vp-pixel-simplified.fonte
 - Software Developer SVG: https://freesvgillustration.com/product/software-developer/
