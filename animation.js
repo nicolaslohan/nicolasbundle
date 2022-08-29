@@ -47,5 +47,3 @@ const fadeObserver = new IntersectionObserver(function (entries, onScreen) {
 hidden.forEach(element => {
     fadeObserver.observe(element)
 })
-
-console.log(hidden)
