@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="animation.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <!-- Navbar -->
     <nav>
         <!-- Logo -->
-        <div onclick="animation(this)" class="nav-item anim">
+        <div onclick="animation(this); location.href='/'" class="nav-item anim">
             <div class="logo-animate">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
                     <path fill="none"
@@ -28,13 +28,13 @@
 
         <div class="nav-link">
             <div class="row">
-                <div onclick="animation(this); location.href='#about'" class="link link-animation">About Me</div>
+                <a onclick="animation(this)" href="#about" class="link link-animation active">About Me</a>
             </div>
             <div class="row">
-                <div onclick="animation(this); location.href='#projects'" class="link link-animation">Projects</div>
+                <a onclick="animation(this)" href="#projects" class="link link-animation">Projects</a>
             </div>
             <div class="row">
-                <div onclick="animation(this); location.href='#tools'" class="link link-animation">Tools</div>
+                <a onclick="animation(this)" href="#tools" class="link link-animation">Tools</a>
             </div>
         </div>
 
@@ -49,7 +49,7 @@
         </button>
     </nav>
 
-    <section id="about" class="about">
+    <section id="#" class="about">
 
         <!-- Main page -->
         <div class="content" id="about-div">
@@ -381,7 +381,7 @@
                         <h1 id="type">Hello,there!</h1>
                     </div>
                     <p>
-                        My name is and I'm a Computer Engeneering and Web Design student and
+                        My name is <a>Nicolas Lohan</a> and I'm a Computer Engeneering and Web Design student and
                         developer.
                         Over here
                         you can see some of the things I’ve done throughout my history with software

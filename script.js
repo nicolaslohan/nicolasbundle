@@ -1,3 +1,7 @@
+window.onload = () => {
+    history.replaceState('', document.title, window.location.origin + window.location.pathname + window.location.search);
+    window.scrollTo(0, 0);
+};
 function bounce_click() {
     Array.from(document.querySelectorAll('#button')).forEach((element) => {
         element.addEventListener('click', button => {
@@ -47,3 +51,4 @@ const fadeObserver = new IntersectionObserver(function (entries, onScreen) {
 hidden.forEach(element => {
     fadeObserver.observe(element)
 })
+
