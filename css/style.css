@@ -513,10 +513,13 @@ img {
         display: flex;
         max-width: 100%;
         flex-direction: column;
-        justify-content: flex-start;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 5rem;
     }
 
     .homepage-text {
+        align-items: baseline;
         margin-inline: 3rem;
     }
 
