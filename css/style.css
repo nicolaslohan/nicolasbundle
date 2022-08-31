@@ -386,14 +386,14 @@ img {
 .column {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .column svg {
     border-radius: 0.5rem;
     padding: 0.5rem;
     background: var(--blue);
-    min-width: 8rem;
+    width: 8rem;
 }
 
 .svg{
@@ -546,6 +546,27 @@ img {
     .aboutme svg {
         max-block-size: 15rem;
         max-inline-size: 15rem;
+    }
+
+    .column {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .sources {
+        padding-inline: 3rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .btn.svg svg{
+        width: 5rem;
     }
 
     .name{
