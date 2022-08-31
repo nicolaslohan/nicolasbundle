@@ -12,11 +12,15 @@
 
 - Figma was a fundamental design tool for this project.
 
-# Demo
+# Demo desktop
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/50882245/187263533-eb2441f2-7fbc-4b2d-b3c6-a0d4d612fd2d.gif)
-**Gif made by: https://ezgif.com**
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/50882245/187557547-1d28968e-4ad9-4dd0-aa18-65945d424791.gif)
 
+# Demo mobile
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/50882245/187557877-f038456f-c483-41b0-86bb-5f9d86af08f3.gif)
+
+**Gifs made by: https://ezgif.com**
 # Assets Rights
 
 - Typo Draft font: https://www.dafont.com/typo-draft.font
