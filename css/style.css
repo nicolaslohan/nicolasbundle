@@ -464,6 +464,16 @@ img {
 }
 
 @media (max-width: 800px) {
+    h1{
+        font: 1rem;
+        white-space: wrap !important;
+        word-wrap: break-word;
+        flex-wrap: wrap;
+    }
+
+    .logo-title{
+        font-size: 1rem;
+    }
 
     .menu {
         display: flex;
@@ -471,7 +481,7 @@ img {
         position: absolute;
         align-items: center;
         align-content: space-around;
-        padding-top: 1rem;
+        padding-block: 1rem;
         border-bottom-left-radius: 0.8rem;
         right: 0;
         top: 4.6875rem;
@@ -501,7 +511,7 @@ img {
     }
 
     .navbar.active .menu {
-        height: calc(60vh - 4.6875rem);
+        height: calc(55vh - 4.6875rem);
         visibility: visible;
     }
 
@@ -523,7 +533,7 @@ img {
         margin-inline: 3rem;
     }
 
-    .homepage-text h1 {
+    .homepage-text h1, .t-blue h1, .t-pink h1, .t-yellow h1{
         font-size: 1.5rem;
     }
 
@@ -535,9 +545,7 @@ img {
 
     .aboutme svg {
         max-block-size: 15rem;
-    }
-    .column svg {
-        min-width: 5rem;
+        max-inline-size: 15rem;
     }
 
     .name{
@@ -552,12 +560,9 @@ img:hover {
     transform: scale(1.1);
 }
 
-.typewriter {
-    width: fit-content;
-}
-
-.typewriter h1 {
-    width: fit-content;
+.typewriter h1{
+    word-break: break-all;
+    white-space: wrap;
 }
 
 .t-yellow h1 {
@@ -578,7 +583,6 @@ img:hover {
     width: fit-content;
     overflow: hidden;
     border-right: .4rem solid var(--blue);
-    white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
     animation:
